@@ -1,0 +1,28 @@
+.web-buttons {
+  background-color: black;
+  border-radius: 100%;
+  margin: 10px auto;
+}
+.videoContainer {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.videoContainer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+i {
+  cursor: pointer;
+}
+#footerContainer {
+  height: 50px;
+  width: 100%;
+  background-color: white;
+}
+
